@@ -13,7 +13,7 @@ npm install
 
 # 2. Crear la base de datos y cargar tablas + datos de prueba
 createdb servihub
-psql -d servihub -f database/servihub_tarea2.sql
+psql -d servihub -f database/servihub.sql
 
 # 3. Configurar variables de entorno
 cp .env.example .env        # y editar con tus credenciales reales
