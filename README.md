@@ -1,6 +1,6 @@
-# ServiHub – Backend (Tarea 2)
+# ServiHub – Backend 
 
-API REST con Node.js + Express + PostgreSQL. Expone el CRUD completo de 4 tablas del modelo de la primera entrega: **roles, usuarios, categorias y servicios**.
+API REST con Node.js + Express + PostgreSQL. 
 
 ## Requisitos
 - Node.js 18 o superior
@@ -47,4 +47,4 @@ Cada recurso (`/api/roles`, `/api/usuarios`, `/api/categorias`, `/api/servicios`
 | PUT    | `/api/<recurso>/:id` | Actualizar            |
 | DELETE | `/api/<recurso>/:id` | Eliminar              |
 
-Las contraseñas de usuarios se guardan cifradas con bcrypt y **nunca** se devuelven en las respuestas.
+
